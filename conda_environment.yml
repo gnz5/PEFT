@@ -1,0 +1,25 @@
+name: peft
+channels:
+  - conda-forge
+  - nvidia
+  - pytorch
+  - defaults
+dependencies:
+  - diffusers
+  - ipywidgets
+  - jupyterlab
+  - matplotlib
+  - numpy
+  - python
+  - pytorch-cuda
+  - cudatoolkit
+  - pytorch
+  - pip
+  - scikit-learn
+  - torchaudio 
+  - torchvision 
+  - pip:
+    - datasets        # huggingface APIS #
+    - evaluate        #                  #
+    - huggingface_hub #                  #
+    - peft            ####################
